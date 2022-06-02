@@ -99,6 +99,7 @@ while(i <= n and i != j):
                     break
         elif choice == 2 and comp == 1:
             print("Point scored!")
+            p = p + 1
             i = i + 1
             chances(i)
             your_score(p)
